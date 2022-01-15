@@ -1,0 +1,11 @@
+.heading {
+    margin: 40px 0;
+}
+
+.heading__title, .heading__description {
+    margin: 0;
+}
+
+.heading__title {
+    color: rgb(56, 56, 133);
+}

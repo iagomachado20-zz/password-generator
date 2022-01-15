@@ -1,5 +1,8 @@
 {
   "name": "password-generator-react",
+  "author": {
+    "name": "Iago Machado"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
