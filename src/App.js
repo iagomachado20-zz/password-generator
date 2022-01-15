@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { HeadingComponent } from './components';
+import { ControlsComponent, HeadingComponent, PasswordDisplayComponent } from './components';
 
 function App() {
   return (
@@ -8,6 +8,8 @@ function App() {
       <HeadingComponent
         description="Crie senhas utilizando letras, números e caracteres especiais" 
         title="Gerador de Senha"/>
+      <PasswordDisplayComponent/> 
+      <ControlsComponent/>
     </div>
   );
 }
